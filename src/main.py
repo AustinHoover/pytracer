@@ -3,13 +3,13 @@
 Main entry point for the pytracer desktop application.
 """
 from tkinter import *
+from window import Window
 
 
 def main() -> None:
-    """Main function that prints hello world."""
-    print("Hello World!")
-    window = Tk()
-    window.mainloop()
+    window = Window()
+    window.start()
+
 
 
 if __name__ == "__main__":
