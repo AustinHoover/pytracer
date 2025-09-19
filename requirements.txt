@@ -1,0 +1,23 @@
+# Development dependencies
+# This file contains additional development tools not needed in production
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Code formatting and linting
+black>=22.0.0
+isort>=5.10.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Pre-commit hooks
+pre-commit>=2.20.0
+
+# Type stubs
+types-requests>=2.28.0
